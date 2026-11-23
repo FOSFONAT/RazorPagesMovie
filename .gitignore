@@ -1,0 +1,53 @@
+## Visual Studio / .NET
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+project.lock.json
+project.fragment.lock.json
+artifacts/
+TestResults/
+
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+## ASP.NET
+appsettings.*.local.json
+**/serviceDependencies.local.json
+**/serviceDependencies.local.json.user
+*.Publish.xml
+publish/
+
+## Local runtime uploads
+**/wwwroot/uploads/*
+!**/wwwroot/uploads/.gitkeep
+
+## IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+## OS files
+.DS_Store
+Thumbs.db
